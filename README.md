@@ -1,6 +1,12 @@
 # 🌦️ React Weather App
 
+
 A modern weather web application built using **React.js** that allows users to search for any city and view **current weather conditions** along with a **5-day forecast**.
+
+## 📸 App Preview
+
+![Weather App Screenshot](./images/screenshot.png)
+
 
 This app fetches live weather data using the **OpenWeatherMap API**.
 
