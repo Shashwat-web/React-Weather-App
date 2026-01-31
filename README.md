@@ -1,38 +1,47 @@
-# React Weather App
-This is a web app developed as a final project for SheCodes React using React.js. It allows users to search for the weather conditions of any city in the world and provides current weather information. The app fetches weather data using the SheCodes Weather API.
+# 🌦️ React Weather App
 
-![Opera Snapshot_2024-02-08_163132_react-weather-app-shemmee netlify app](https://github.com/s-shemmee/React-Weather-App/assets/56132945/a3aea312-a726-40c6-93bb-45261ecddcad)
+A modern weather web application built using **React.js** that allows users to search for any city and view **current weather conditions** along with a **5-day forecast**.
 
-# Features
-- Users can search for weather conditions of any city in the world.
-- The app displays the current weather conditions, including temperature and weather description.
-- The app utilizes the SheCodes Weather API to fetch weather data.
+This app fetches live weather data using the **OpenWeatherMap API**.
 
-# Technologies & Tools Used
-- React.js
-- HTML
-- CSS
-- JavaScript
-- VS Code
-- SheCodes Weather API
+---
 
-# Installation and Usage
-To use this app, you can follow these steps:
+## ✨ Features
 
-- Clone the repository or download the source code.
-- Open the project in your preferred code editor.
-- Run  `npm install` to install the necessary dependencies.
-- Run `npm start` to start the development server.
-- Open your browser and navigate to `http://localhost:3000` to use the app.
+- 🔍 Search weather by city name  
+- 🌡️ View current temperature  
+- ☁️ Weather condition description with icon  
+- 💨 Wind speed and humidity details  
+- 📅 5-Day weather forecast  
+- 🔁 Temperature unit toggle (°C / °F)  
+- ⚡ Real-time API data fetching  
 
-To use the app, simply type the name of the city you want to search for in the search bar and press Enter. The app will display the current weather conditions for the searched city.
+---
 
-# Demo
-A live demo of the React Weather App is available at [LINK TO LIVE DEMO](https://react-weather-app-shemmee.netlify.app).
+## 🛠️ Technologies Used
 
-# Credits
-- The weather app was created by [s-shemmee](https://github.com/s-shemmee) as a final project for the SheCodes React workshop.
-- The app uses the SheCodes Weather API to retrieve weather data.
+- React.js  
+- JavaScript (ES6+)  
+- HTML5  
+- CSS3  
+- Axios (for API requests)  
+- OpenWeatherMap API  
 
-# License
-This project is licensed under the MIT license.
+---
+
+## 🚀 Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/Shashwat-web/React-Weather-App.git
+
+# Navigate into the project folder
+cd React-Weather-App
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
